@@ -1,0 +1,114 @@
+/* universal reset */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+/* variable */
+
+:root {
+  --clr-content-primary: #3498db;
+  --clr-bg-primary: #eee;
+  --clr-bg-secondary: #fff;
+  --width-content: 70vw;
+  --max-width-content: 600px;
+  --height-content: 50vh;
+  --border-radius: 1rem;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--clr-bg-primary);
+  overflow: hidden;
+}
+
+.section-center {
+  width: 70vw;
+  max-width: 600px;
+  background-color: var(--clr-bg-secondary);
+  height: 50vh;
+  margin-bottom: 40px;
+}
+
+.section-center header {
+  background-color: var(--clr-content-primary);
+  color: white;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.content h2 {
+  margin-top: 6rem;
+}
+
+.alert {
+  width: 70vw;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: pink;
+  color: red;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  position: absolute;
+}
+
+.icon {
+  color: var(--clr-content-primary);
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  border: 1px solid var(--clr-content-primary);
+}
+
+.btn-container {
+  display: block;
+  margin: 1rem auto;
+}
+
+.btn {
+  padding: 0.25rem 1rem;
+  background-color: var(--clr-content-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid var(--clr-content-primary);
+}
+
+.btn:hover {
+  background-color: var(--clr-bg-secondary);
+  color: var(--clr-content-primary);
+  border: 1px solid var(--clr-content-primary);
+}
