@@ -1,5 +1,7 @@
 # Full stack authentication (login/register) 
 
+the app is hosted on: https://authentication-frontend.onrender.com/
+
 ## About project
 
 This authentication page allows user to register and login. The data submitted by user are persist in database. 
