@@ -1,6 +1,6 @@
 # Full stack authentication (login/register) 
 
-the app is hosted on: https://authentication-frontend.onrender.com/
+The app is hosted on: https://authentication-frontend.onrender.com/
 
 ## About project
 
